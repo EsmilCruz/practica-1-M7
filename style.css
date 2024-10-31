@@ -1,0 +1,83 @@
+
+.buscador{
+    margin-left: 100px;
+}
+
+.buscador input{
+    height: 30px;
+}
+
+.header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    background-color:  #f2f2f2;
+    margin: -7px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.518);
+}
+
+.act{
+    display: inline;
+    margin-right: 100px;
+}
+
+/*------------------------------------------------------------Contenido*/
+
+.tema{
+    background-color: rgba(17, 17, 203, 0.843);
+    padding: 9px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.664);
+}
+
+.contenido{
+    background-color: #efe6e6;
+    margin: 3px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.664);
+}
+
+li{
+    padding: 9px;
+    text-align: justify;
+    font-size: 18;
+}
+
+/*´----------------------------------------------------------Pie de pagina*/
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    margin: -7px;
+}
+.contenido-pie {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.column {
+    width: 45%;
+    text-align: left;
+}
+.column h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.column ul {
+    list-style-type: none;
+    padding: 0;
+}
+.column ul li {
+    margin-bottom: 5px;
+}
+li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.hh1{
+    color: aliceblue;
+}
